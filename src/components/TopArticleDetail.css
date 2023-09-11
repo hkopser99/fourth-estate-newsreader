@@ -1,0 +1,31 @@
+.detail-item-component {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.detail-item-component img {
+  width: 250px;
+  height: 250px;
+}
+
+.detail-item-component h2 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.detail-item-component h6 {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .detail-item-component {
+      padding: 40px 50px;
+  }
+
+  .detail-item-component img {
+      width: 400px;
+      height: 400px;
+  }
+}
