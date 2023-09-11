@@ -5,7 +5,7 @@ Fourth Estate - Newsreader Built with React and Firebase Realtime DB
   
 
 Fourth Estate – ReactJS and Firebase Newsreader  
-
+ 
   
 
 Fourth Estate is a re-creation of an iOS App I developed and owned (no longer on the app store). This app was focused on aggregating and gamifying political news. It was reviewed by and received positive recognition from publications including Philadelphia.com and MacWorld.com.  
