@@ -34,7 +34,6 @@ React-Router
 Firebase
 
 (Firebase include option to CURL server if needed) 
- 
 
 
 Understanding the App's Functionality and Data Flow: 
@@ -45,7 +44,6 @@ This is a single page app with a single Router context. View App.js to understan
 There are two custom hooks used, which provide access to 2 Contexts: useCurrentUserContext and usePreferredFeedContext.
 
 When the app initially renders a logged in user will be checked for via a useMemo() and useEffect() hook combo. If logged in various components will conditionally be rendered (see below). A similar useMemo() and useEffect() hook combo is used to check for a preffered news feed. Both the current user and preffered newsfeed are stored in contexts accessed be the aformentioned custom hooks.
-
 
 
 <Home> component: presents the articles feed w/ either a default newsfeed or the user's selected newsOption (selected options are stored in firebase).
@@ -97,12 +95,6 @@ Multiple easily accessible Routes include conditionally rendered info if user is
 
 ____________
 
-You are invited to recommend updates to Fourth Estate, which can include refactoring, added functionally, and anyting else that can improve the use and scalability of this app. 
+You are invited to submit updates to Fourth Estate, which can include refactoring, added functionally, and anyting else that can improve the use and scalability of this app. 
 
 -HK
-
-
-
-
-
-
